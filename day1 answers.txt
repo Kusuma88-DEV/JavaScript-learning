@@ -1,0 +1,63 @@
+1)What is JavaScript and why do we use it?
+A)JavaScript is a high-level programming language used to create interactive and dynamic web applications. It allows developers to add behavior, logic, and functionality to websites. It can run in browsers and also on servers using environments like Node.js.
+
+Why this is better:
+
+"High-level" → shows technical understanding
+"Behavior, logic, functionality" → explains what JS actually does
+"Browser + server" → shows wider knowledge
+2)Difference between HTML, CSS, and JavaScript?
+A)HTML:
+
+HTML is used to create the structure and content of a webpage, such as headings, paragraphs, images, buttons, and forms.
+
+CSS:
+
+CSS is used to style and design the webpage by controlling colors, layouts, fonts, spacing, and appearance.
+
+JavaScript:
+
+JavaScript is used to add behavior and logic to webpages, making them interactive and dynamic. It handles actions like button clicks, validations, animations, API calls, and data processing.
+
+Example:
+
+A login page:
+
+HTML → Creates username/password fields
+CSS → Makes the page attractive
+JavaScript → Checks whether the login details are correct
+3)Difference between let and const?
+A)let
+Value can be changed (reassigned)
+Used when the value may change in the future
+
+Example:
+
+let age = 20;
+
+age = 21;
+
+console.log(age);
+
+Output:
+
+21
+const
+Value cannot be changed (reassigned)
+Used when the value should remain fixed
+
+Example:
+
+const pi = 3.14;
+
+pi = 5;
+
+Output:
+
+Error
+
+because const cannot be reassigned.
+
+Interview-level answer:
+
+let allows reassignment of values, while const does not allow reassignment. Both are block-scoped variables introduced in ES6, but we use const by default when the value does not need to change.
