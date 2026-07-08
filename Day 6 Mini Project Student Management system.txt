@@ -1,0 +1,27 @@
+Day 6 Mini Project: Student Management System
+
+
+let student = {
+    name: "Kusuma",
+    age: 21,
+    marks: [85, 90, 95]
+};
+
+// Print Name
+console.log("Student Name:", student.name);
+
+// Calculate Total
+let total = student.marks.reduce((sum, mark) => sum + mark, 0);
+
+// Calculate Average
+let average = total / student.marks.length;
+
+console.log("Average Marks:", average);
+
+// Add New Mark
+student.marks.push(88);
+
+console.log("Updated Marks:", student.marks);
+
+// Print Complete Student Object
+console.log(student);
